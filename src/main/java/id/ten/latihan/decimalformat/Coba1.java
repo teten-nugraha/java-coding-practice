@@ -5,8 +5,11 @@ import java.text.DecimalFormat;
 public class Coba1 {
     public static void main(String[] args) {
 
-        final Double input = -100000098D;
-        System.out.printf("Nilai nya adalah "+ doFormat(input));
+//        final Double input = -100000098D;
+//        System.out.printf("Nilai nya adalah "+ doFormat(input));
+
+        String input = "baca";
+        System.out.println(input.substring(0,2));
 
     }
 
