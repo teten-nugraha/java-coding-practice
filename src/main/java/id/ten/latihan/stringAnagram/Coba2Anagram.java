@@ -32,4 +32,6 @@ public class Coba2Anagram {
             System.out.println(s1 +" & "+s2+" bukan anagram");
         }
     }
+
+
 }

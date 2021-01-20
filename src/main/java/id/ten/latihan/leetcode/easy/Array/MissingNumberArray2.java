@@ -6,7 +6,7 @@ import java.util.BitSet;
 public class MissingNumberArray2 {
     public static void main(String[] args) {
 //        printMissingNumber(new int[]{1, 2, 3, 5, 6}, 6);
-        printMissingNumber(new int[]{1, 2, 3, 4, 5, 6, 8, 9}, 9);
+        printMissingNumber(new int[]{1,2,4}, 4);
     }
 
     private static void printMissingNumber(int[] numbers, int count) {
