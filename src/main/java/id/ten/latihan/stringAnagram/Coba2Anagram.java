@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class Coba2Anagram {
     public static void main(String[] args) {
-        final String input1 = "topi";
-        final String input2 = "1234";
+        final String input1 = "aba";
+        final String input2 = "aba";
         isAnagram(input1, input2);
 
     }

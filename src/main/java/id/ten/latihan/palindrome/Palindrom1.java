@@ -3,13 +3,13 @@ package id.ten.latihan.palindrome;
 public class Palindrom1 {
 
     public static void main(String[] args) {
-        final String input = "madam8";
+        final String input = "never odd or even";
         boolean isPalindrom  = checkPalindrom(input);
         System.out.println(input+" palindrom is "+isPalindrom);
     }
 
     private static boolean checkPalindrom(String input) {
-
+        double a = Double.POSITIVE_INFINITY;
         if(input == null || input.isEmpty()) {
             System.out.println("Empty input");
         }
